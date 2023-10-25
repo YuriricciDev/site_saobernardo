@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FCD403;
+}
+
+header { 
+    padding: 16px 0;
+    background-color: black;
+    color: #ecf0f1;
+        
+}
+
+header h1 {
+    background-color: black;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    background-color: black;
+}
+
+section {
+    color: black;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img { 
+    height: 720px;
+}
+
+.sponsor-list img {
+    height: 80px;
+}
+
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#socio .container {
+    display: block;
+}
+
+.socio-torcedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 280px;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+form button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer; /*comando para quando colocar em cima de algum botão a setinha vira maozinha*/
+}
+
+form button:hover {
+    background-color: #37383a; /*comando que quando colocamos o mouse sobre o botão ele muda de cor*/
+}
+
+input:focus, textarea:focus {
+    outline-color: black; /*muda a cor da área selecionada*/
+}
+
+footer {
+    background-color: black;
+    color: #ecf0f1;
+    padding: 16px 0;
+}

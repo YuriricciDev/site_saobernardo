@@ -6,7 +6,7 @@
 }
 
 header { 
-    padding: 16px 0;
+    padding: 18px 0;
     background-color: black;
     color: #ecf0f1;
         
@@ -16,10 +16,15 @@ header h1 {
     background-color: black;
 }
 
-header nav li {
-    display: inline;
-    margin-left: 18px;
-    font-size: 18px;
+header nav li {       /*estilizando o menu logo abaixo do logo*/
+    display: inline;  /* deixar um ao lado do outro*/
+    margin-left: 18px; /*margem entre eles*/
+    font-size: 20px;
+    background-color: black;
+}
+
+header ul {
+    background-color: black;
 }
 
 header nav li a {
@@ -28,8 +33,13 @@ header nav li a {
     background-color: black;
 }
 
+.social-links li a {
+    color: #FCD403;
+}
+
+
 section {
-    color: black;
+padding: 24px 0;
 }
 
 section p {
@@ -38,24 +48,29 @@ section p {
 
 
 section h2 {
-    margin-bottom: 16px;
+    margin-bottom: 16px 0;
 }
 
 section .container {
     align-items: flex-start;
 }
 
-.container {
+.container {    /*serve para centralizar o conteudo e fazer distribuição do titulo a esquerda e menu a direita*/
     max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
+    width: 100%;   /*100% da largura até 1280px*/ 
+    margin: 0 auto;   /*serve para centralizar*/ 
 }
 
-header .container,
-section .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+section .container,
+header .cabecalho {
+    display: flex; /*intens ficam lado a lado*/
+    align-items: center; /*centralizar na vertical*/
+    justify-content: space-between; /*seprando o menu e o titulo*/
+}
+
+header .cabecalho {
+    background-color: black;
 }
 
 .container img { 
@@ -66,6 +81,11 @@ section .container {
     height: 80px;
 }
 
+.sponsor-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
 
 .social-links img {
     height: 24px;
@@ -73,7 +93,7 @@ section .container {
 
 .social-links li {
     display: inline;
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 #socio .container {
@@ -113,7 +133,8 @@ input:focus, textarea:focus {
     outline-color: black; /*muda a cor da área selecionada*/
 }
 
-footer {
+footer
+footer p {
     background-color: black;
     color: #ecf0f1;
     padding: 16px 0;
